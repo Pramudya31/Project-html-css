@@ -1,0 +1,131 @@
+!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"> 
+  <title>MOKLET</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>  
+</head>
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container-fluid">
+        <!-- <a class="navbar-brand" href="#">SMK Telkom Malang</a> -->
+        <img src="F:\KELAS XIR7\PRODUKTIF RPL\TUGAS\TUGAS 2 - BOOTSTRAP\logo.png" style="width: 40px;margin: 0 20px 0 10px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" style="text-align: right;" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item" style="margin-right: 20px;">
+              <a class="nav-link active" aria-current="page" href="#" style="font-size: 14px;">Home</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px;">
+              <a class="nav-link" href="#" style="font-size: 14px;">About</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px;">
+              <a class="nav-link" href="#" style="font-size: 14px;">Alumni</a>
+            </li>
+            <li class="nav-item" style="margin-right: 20px;">
+              <a class="nav-link" href="#" style="font-size: 14px;">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </nav>
+ <!--Navbar-->
+  <div style="width:100%;text-align: center; background-color: rgb(243, 4, 4); padding-bottom: 35px; box-shadow: black 2px 5px; box-shadow: inset #838383 0px -8px 20px;">
+    <img src="http://2.bp.blogspot.com/-eiIV2g3y9kU/U0AUmOFSdjI/AAAAAAAADZY/lcApYx9UxPY/s1600/1912061_10152307402461253_1881241236_o.png" style="width: 370px; margin-top: 50px;">
+    <h2 style="font-family: Arial, Helvetica, sans-serif; font-weight: bold;">SMK Telkom Malang</h2>
+    <h5 style="font-family: Arial, Helvetica, sans-serif;">Jl. Danau Ranau, Sawojajar, Kec. Kedungkandang, Kota Malang, Jawa Timur 65139</h5>
+  </div>
+  <div style="width:100%;">
+    <div style="text-align: center;">
+      <h3 style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin-top: 50px; color: red;">Selamat datang di lingkungan moklet</h3>
+      <h5 style="font-family :Arial, Helvetica, sans-serif">Disini ada apa aja?</h5>
+      <hr>     
+    </div> 
+    <!--Card -->
+    <div class="row row-cols-1 row-cols-md-3 g-4" style="text-align: center; margin-top: 20px;">
+      <div class="col">
+        <div class="card">       
+          <div class="card-body">
+            <img src="http://infopublik.id/assets/upload/headline/guru5.jpg" style="width: 60px;">
+            <h5 class="card-title">Guru</h5>
+            <p class="card-text">Memiliki guru yang baik, sopan, pintar dan juga dapat membimbing murid murid dengan baik.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.yccgh6w9n1vltiCdnJBY0wHaHa&pid=Api&P=0&w=300&h=300" style="width: 60px;">
+            <h5 class="card-title">Pencapaian/Prestasi</h5>
+            <p class="card-text">Memiliki beragam prestasi baik bidang akademik maupun non akademik.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <img src="http://kuliahdesain.com/wp-content/uploads/2014/09/Selamat-Wisuda.jpg?x75570" style="width: 65px;">
+            <h5 class="card-title">Kelulusan</h5>
+            <p class="card-text">Menciptakan lulusan yang berkualitas yang dapat bersaing dan bekerja pada bidang industri.</p>
+          </div>
+        </div>
+      </div>     
+  </div>
+
+  <div class="row row-cols-1 row-cols-md-3 g-4" style="text-align: center; margin-top: 10px;">
+    <div class="col">
+      <div class="card">       
+        <div class="card-body">
+          <img src="https://tse4.mm.bing.net/th?id=OIP.fkqUh1Kq_z9_vxhqZENIIwHaFh&pid=Api&P=0&w=300&h=300" style="width: 60px;">
+          <h5 class="card-title">Fasilitas</h5>
+          <p class="card-text">Memiliki fasilitas lengkap yang dibutuhkan siswa untuk belajar.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <img src="https://tse1.mm.bing.net/th?id=OIP.wRkHdDOqnor_FHTzQTvqZAHaDt&pid=Api&P=0&w=300&h=300" style="width: 60px;">
+          <h5 class="card-title">Kerjasama industri</h5>
+          <p class="card-text">Memiliki banyak jaringan industri agar siswa siap bekerja di industri.</p>
+        </div>
+      </div>
+    </div>        
+</div>
+<hr style="margin-top: 40px;"> 
+</body>
+<footer style="margin-top: 30px;">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <h5><i class="fa fa-road"></i> Page.</h5>
+            <div class="row">
+            </div>
+        </div>
+        <div class="col-md-2">
+        </div>
+        <div class="col-md-5">
+            <form>
+                <fieldset class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                </fieldset>
+                <fieldset class="form-group">
+                    <textarea class="form-control" id="exampleMessage" placeholder="Message"></textarea>
+                </fieldset>
+                <fieldset class="form-group text-xs-right">
+                    <button type="button" class="btn btn-secondary-outline btn-lg">Send</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+</footer>
+</html>
